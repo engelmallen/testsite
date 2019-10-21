@@ -1,0 +1,62 @@
+body
+{
+	width:		100%;
+	background: #F5F5F5;
+	text-decoration: none;
+}
+
+header
+{
+	/*position:absolute;
+	margin-bottom: 100px;*/
+	width: 100%;
+	max-height: 200px;
+}
+
+
+
+nav
+{
+	width:		100%;
+	float:		right;
+}
+
+.socialMediaButtons
+{
+	width:		100%; 
+	max-width:	50px;
+	float:		right;
+	margin-right: 10%;
+
+}
+
+.navButtons
+{
+	list-style: none;
+	
+}
+
+.navButtons a
+{
+	/*background: #B0BF1A;*/
+	color: 		#665D1E;
+	width: 		100%;
+	max-width: 	200px;
+	float:		left;
+	text-decoration: none;
+	text-align: center;
+	
+	
+}
+.navButtons a:hover
+{
+	background: #665D1E;
+	color: 		#ffffff;
+	transition: 1s;
+}
+
+main
+{
+	/*margin:5% 0 0 0;*/
+}
+
