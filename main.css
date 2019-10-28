@@ -1,6 +1,24 @@
+
+.center {
+  margin: 0px 50%;
+}
+
+/*.container
+{
+	width: 75%;
+    margin: 0px 25%;
+}
+
+	maybe?
+
+*/
+
+
 body
 {
 	width:		100%;
+	margin: 0px;
+	padding: 0px;
 	background: #F5F5F5;
 	text-decoration: none;
 }
@@ -13,12 +31,25 @@ header
 	max-height: 200px;
 }
 
+Header aside
+{
+	width: 100%;
+}
+
+logoHeader
+{
+	float: 		left;
+	
+}
+
 
 
 nav
 {
 	width:		100%;
 	float:		right;
+	color: 		#665D1E;
+
 }
 
 .socialMediaButtons
@@ -33,6 +64,8 @@ nav
 .navButtons
 {
 	list-style: none;
+	background: #d7f4d7;
+	margin: 0px;
 	
 }
 
