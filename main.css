@@ -115,8 +115,27 @@ main
 {
 	background		:#C3CCBF;
 	border-radius	:2px;
-	width			:30%;
+	max-width		:30%;
+	min-width		:20%;
 	height			:300px;
 	margin			:10% auto;
-	border-radius	: 20px;
+	padding			:10px 0px;
+	border-radius	:20px;
+}
+
+.formQuote input
+{
+	float			:right;
+	width			:40%;
+	border-radius	:10px;
+	border			:none;
+	background		:#FFF;
+	margin			:5px 25px;
+	padding			:2px;
+}
+
+.formQuoteButtons
+{
+	color		:#FFF;
+	background	: #0B5C30;
 }
