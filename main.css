@@ -1,7 +1,14 @@
 
-.center {
-  margin: 0px 50%;
-}
+.center 
+{margin	:0px 50%;}
+
+.floatLeft
+{float	:left;}
+
+.floatRight 
+{float	:right;}
+
+
 
 /*.container
 {
@@ -14,19 +21,20 @@
 
 body
 {
-	width:		100%;
-	margin: 0px;
-	padding: 0px;
-	background: #F5F5F5;
-	text-decoration: none;
+	width			:100%;
+	margin			:0px;
+	padding			:0px;
+	background		:#F5F5F5;
+	text-decoration	:none;
+	font			:18;
 }
 
 header
 {
 /*	position:absolute;
 	margin-bottom: 100px;*/
-	width: 100%;
-	max-height: 200px;
+	width		:100%;
+	max-height	:200px;
 }
 
 Header aside
@@ -39,7 +47,6 @@ logoHeader
 	float		:left;
 	background	:#C3CCBF;
 }
-
 
 
 .navMain
@@ -107,7 +114,7 @@ main
 .tabHome
 {
 	width	:100%;
-	height	:1000px;
+	height	:1080px;
 	padding	:4% 0%;
 }
 
@@ -137,5 +144,45 @@ main
 .formQuoteButtons
 {
 	color		:#FFF;
-	background	: #0B5C30;
+	background	:#0B5C30;
+}
+
+.tabAbout
+{
+	background: #FFFFE0;
+	width	:100%;
+	height	:1080px;
+	padding	:4%;
+}
+
+.tabAbout section
+{
+	width	:100%;
+	height	:30%;
+	float	:left;
+	display: inline-block;
+}
+
+.tabAboutimg
+
+{
+	width: 30%;
+}
+.tabAbout h1
+{
+	width: 100%;
+	height: 20%;
+}
+
+.tabAbout h2
+{
+	width: 100%;
+	height: 20%;
+}
+
+
+.tabAboutDescription
+{
+	width: 69%;
+	display: inline-block;
 }
