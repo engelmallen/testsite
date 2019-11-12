@@ -186,3 +186,28 @@ main
 	width: 69%;
 	display: inline-block;
 }
+
+.tabSweeting
+{
+	background	:#FEC87D;
+	width		:100%;
+	height		:1080px;
+	/*padding	:4%;*/
+}
+
+.tabSweeting section
+{
+	width:100%;
+}
+
+.tabSweetingHead
+{
+	
+}
+
+.tabSweetingFoot
+{
+	background		:url(img/patSweet.png);
+	background-size	:auto 100%;
+	height			:4.5%;
+}
