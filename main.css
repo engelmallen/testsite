@@ -210,9 +210,10 @@ main
 {
 	background	:#EEEEEC;
 	width		:92%;
-	height		:20%;
+	height		:500px;			/*:20%;*/
 	display		:inline-block;
 	padding		:4%;
+	float		:left;
 }
 
 /*.tabAbout section
@@ -245,12 +246,12 @@ main
 {
 	/*background-image:url(img/imgMorronTra.png) center;*/
 	width			:30%;
-	min-height		:317px;
+	min-height		:250px;
 	text-align		:center;
 	display			:inline-block;
 	float			:left;
 	margin			:0 1.66%;
-	border-radius	: 20px;
+	border-radius	:20px;
 	text-decoration	:none;
 	text-transform	:none;
 	color			:#692E2A;
@@ -258,8 +259,8 @@ main
 
 .tabAboutDescription
 {
-	width: 70%;
-	margin: 0px 15%;
+	width		: 70%;
+	margin		: 0px 15%;
 }
 
 
@@ -274,143 +275,147 @@ main
 {
 	background	:#FEC87D;
 	width		:100%;
-	height		:1080px;
-	display:inline-block;
+	/*height		:1080px;*/
+	display		:inline-block;
 	/*padding	:4%;*/
 }
 
-.tabSweeting section
+/*.tabSweeting section
 {
-	/*width:100%;*/
-}
+	background	:#FEC87D;
+	
+	width:100%;
+}*/
 
 .tabSweetingHead
 {
-	
+	background		: url(img/imgSweetingLong.png) no-repeat center;
+	height			: 310px;
+	background-size	: cover;
 }
 
 .sweetFlavors
 {
-	width: 80%;
-	margin-bottom: 5%;
-	padding: 0% 10%;
-	display:inline-block;
+	width	: 80%;
+	margin	: 6% 0px 15% 0;
+	padding	: 0% 10%;
+	display	: inline-block;
 }
 
 .cardDiv
 {
-	width: 33%;
-	float: left;
-	margin: 1% 0.1%;
+	width			: 33%;
+	float			: left;
+	margin			: 1% 0.1%;
 }
 .sweetCard
 {
-	width: 100%;
-	color:#FFF;
-	display:inline-block;
+	width			: 100%;
+	color			:#FFF;
+	display			:inline-block;
 	/*float:left;*/
-	transition: 1s;
-	float:left;
-	margin: 0.5% 1.5%;
+	transition		: 1s;
+	float			:left;
+	margin			: 0.5% 1.5%;
 }
 
 .sweetCard h1
 {
-	width:100%;
-	height: 5%;
-	background: #FFF1DF;
-	text-align:center;
-	margin:0;
-	transition: 1s;
-	color:#5B3027;
-	float: left;
+	width		:100%;
+	background	:#FFF1DF;
+	text-align	:center;
+	margin		:0;
+	transition	:1s;
+	color		:#5B3027;
+	float		:left;
+	padding		:15px 0px;
 }
 
 .sweetImg p
 {
-	padding: 5px 5%;
-	text-align:justify;
+	padding			: 5px 5%;
+	text-align		:justify;
 }
 
 
 .sweetImg
 {
-	background-size: 100%;
+	background-size	: 100%;
 	/*opacity: 0;*/
-	width:100%;
-	height: 0px;
+	width			:100%;
+	height			: 0px;
 	/*max-height: 260px;*/
 	/*border:#000 2px solid;*/
 	/*opacity: 0;*/
-	float: left;
-	transition: 1s;
+	float			: left;
+	transition		: 1s;
 	/*visibility:hidden;*/
 }
 
 .sweetDrop
 {
-	visibility:hidden;
+	visibility		:hidden;
 	/*display:none;*/
-	opacity:0;
-	transition: 1s;
-	text-align:justify;
-	font-size:0%;
+	opacity			:0;
+	transition		: 1s;
+	text-align		:justify;
+	font-size		:0%;
 }
 
 .sweetCard:hover .sweetImg
 {
-	opacity: 100;
-	height: 270px;
-	transition: 1s;
+	opacity		: 100;
+	height		: 270px;
+	transition	: 1s;
 }
 
 
 .sweetCard:hover .sweetDrop
 {
-	visibility:visible;
+	visibility	:visible;
 	/*display:inline-block;*/
-	text-align:justify;
-	font-size:100%;
-	opacity: 100;
-	transition: 1s;
+	text-align	:justify;
+	font-size	:100%;
+	opacity		: 100;
+	transition	: 1s;
 }
 
 .sweetCard:hover h1
 {
-	background:#5B3027;
-	transition: 1s;
-	color:#FFF1DF;
+	background	:#5B3027;
+	transition	: 1s;
+	color		:#FFF1DF;
 }
 
 .vanilla
 {
-	background:url(img/imgVainilla.jpg) no-repeat;
-	background-size: 100%;
+	background		:url(img/imgVainilla.jpg) no-repeat;
+	background-size	: 100%;
 }
 .bombom
 {
-	background:url(img/imgBombom.jpg) no-repeat;
-	background-size: 100%;
+	background		:url(img/imgBombom.jpg) no-repeat;
+	background-size	: 100%;
 }
 .ciruela
 {
-	background:url(img/imgCiruelas.jpg) no-repeat;
-	background-size: 100%;
+	background		:url(img/imgCiruelas.jpg) no-repeat;
+	background-size	: 100%;
 }
 .pistachio
 {
-	background:url(img/imgPistachio.jpg) no-repeat;
-	background-size: 100%;
+	background		:url(img/imgPistachio.jpg) no-repeat;
+	background-size	: 100%;
 }
 .turron
 {
-	background:url(img/imgTurron.jpg) no-repeat;
-	background-size: 100%;
+	background		:url(img/imgTurron.jpg) no-repeat;
+	background-size	: 100%;
 }
 .coco
 {
-	background:url(img/imgCoco.jpg) no-repeat;
-	background-size: 100%;
+	background		:url(img/imgCoco.jpg) no-repeat;
+	background-size	: 100%;
 }
 
 
@@ -423,16 +428,16 @@ main
 
 .sweetFlavorsDes
 {
-	background:#FFF1DF;
-	color: #5B3027;
-	width:100%;
-	height: 35%;
-	float: left;
+	background	:#FFF1DF;
+	color		:#5B3027;
+	width		:100%;
+	height		:35%;
+	float		:left;
 }
 
 .sweetFlavorsDes p
 {
-	padding: 5px 5%;
+	padding		: 5px 5%;
 }
 
 
@@ -442,5 +447,67 @@ main
 	background		:url(img/patSweet.png);
 	background-size	:auto 100%;
 	height			:4.5%;
+	float			:right;
 }
 
+#recetas
+{
+	height		:800px;
+	width		:80%;
+	padding		:0 10%;
+	float		:left;
+	background	:#FFF;
+}
+
+#recetas h1
+{
+	width		:100%;
+	padding		:1% 0;
+	font		:xx-large bold;
+	text-align	:center;
+}
+
+#recetas h2
+{
+	font		:x-large bold;
+	text-align	:center;
+}
+
+#recetas section
+{
+	width: 100%;
+	display:inline-block;
+}
+
+.recCard
+{
+	margin			:20px 6%;
+	float			:left;	
+}
+
+.circlePic
+{
+	background-size	:cover;
+	border-radius	:100%;
+	width			:260px;
+	height			:260px;
+	transition		:2s;
+}
+
+.circlePic:hover
+{
+	/*background-size	:100%;
+	border-radius		:100%;
+	width				:260px;
+	height				:260px;*/
+	transition			:2s;
+	transform			:scale(1.2);
+}
+
+footer
+{
+	background	:#5B3027;
+	width		:100%;
+	height		:200px;
+	float		:left;
+}
