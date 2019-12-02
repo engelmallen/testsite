@@ -2,7 +2,13 @@ html
 {
 	scroll-behavior: smooth;
 	margin:0;
+	font-family:"Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
 }
+
+a {
+  color:inherit;
+  text-decoration: none;
+ }
 
 .center 
 {margin	:0px 50%;}
@@ -104,7 +110,7 @@ logoHeader
 	/*background	: #B0BF1A;*/
 	color			:#665D1E;
 	/*width			:16%;*/
-	padding			: 1.5% 4.6%;
+	padding			:1.5% 4.6%;
 	float			:left;
 	text-decoration	:none;
 	text-align		:center;
@@ -119,12 +125,16 @@ logoHeader
 	transition		:1s;
 }
 
+.navSocial
+{
+	padding			:1% 2.5% !important;
+}
 
 
 
 main
 {
-	background		:url(img/imgBackground.jpg) no-repeat /*center*/ fixed;
+	background		:url(img/imgBackground.jpg) no-repeat /*center*/ 				 					fixed;
 	background-size	:cover;
 	width			:90%;
 	margin			:5% auto;
@@ -143,9 +153,9 @@ main
 {
 	background		:rgba(195,204,191,0.75) /*#C3CCBF*/;
 	border-radius	:2px;
-	max-width		:32%;
+	/*max-width		:32%;*/
 	min-width		:20%;
-	max-height		:306px;
+	/*max-height		:306px;*/
 	margin			:6% 33.3% 16% 33.3%;
 	padding			:10px 0px;
 	border-radius	:20px;
@@ -155,7 +165,7 @@ main
 .formQuote input
 {
 	float			:left;
-	width			:38.5%;
+	/*width			:38.5%;*/
 	min-width		:38.5%;
 	border-radius	:10px;
 	border			:none;
@@ -246,15 +256,20 @@ main
 {
 	/*background-image:url(img/imgMorronTra.png) center;*/
 	width			:30%;
-	min-height		:250px;
+	height			:330px;
 	text-align		:center;
 	display			:inline-block;
 	float			:left;
-	margin			:0 1.66%;
+	margin			:0px 1.66%;
 	border-radius	:20px;
 	text-decoration	:none;
 	text-transform	:none;
 	color			:#692E2A;
+}
+
+.card h1
+{
+	margin-bottom	:50px;
 }
 
 .tabAboutDescription
@@ -452,24 +467,24 @@ main
 
 #recetas
 {
-	height		:800px;
+	/*height	:800px;*/
 	width		:80%;
-	padding		:0 10%;
+	padding		:5% 10% 10% 10%;
 	float		:left;
-	background	:#FFF;
+	background	:#EEEEEC;
 }
 
 #recetas h1
 {
 	width		:100%;
 	padding		:1% 0;
-	font		:xx-large bold;
+	font-size	:xx-large;
 	text-align	:center;
 }
 
 #recetas h2
 {
-	font		:x-large bold;
+	/*font		:x-large bold;*/
 	text-align	:center;
 }
 
@@ -481,7 +496,7 @@ main
 
 .recCard
 {
-	margin			:20px 6%;
+	margin			:0px 3.53%;;
 	float			:left;	
 }
 
@@ -489,25 +504,65 @@ main
 {
 	background-size	:cover;
 	border-radius	:100%;
-	width			:260px;
-	height			:260px;
+	width			:360px;
+	height			:360px;
 	transition		:2s;
 }
 
 .circlePic:hover
 {
 	/*background-size	:100%;
-	border-radius		:100%;
 	width				:260px;
 	height				:260px;*/
-	transition			:2s;
-	transform			:scale(1.2);
+	border-radius		:20px;
+	transition			:1s;
+	transform			:scale(1.1);
+}
+
+.contacto
+{
+	padding: 20px 0px;
+	background	:#C3CCBF;
+	width		:100%;
+	height		:170px;
+	float		:left;
+	margin: 55px 0px;
+}
+
+.contSect
+{
+	width: 33.33333%;
+	height: 100px;
+	text-align: center;
+	float:left;
+	display:inline-block;
 }
 
 footer
 {
 	background	:#5B3027;
 	width		:100%;
-	height		:200px;
+	height		:20px;
 	float		:left;
+	padding		: 50px 0px; 
+}
+
+footer a
+{
+	
+	width:100%;
+	margin: 0px 50%px;
+	color:#EEEEEC;
+	text-align: center;
+	display:;
+}
+
+.fooText
+{
+	
+	width:100%;
+	margin: 0px 50%px;
+	color:#EEEEEC;
+	text-align: center;
+	display:;
 }
