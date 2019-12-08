@@ -3,6 +3,7 @@ html
 	scroll-behavior: smooth;
 	margin:0;
 	font-family:"Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	color: #692E2A;
 }
 
 a {
@@ -153,9 +154,9 @@ main
 {
 	background		:rgba(195,204,191,0.75) /*#C3CCBF*/;
 	border-radius	:2px;
-	/*max-width		:32%;*/
+	/*max-width		:32%;
 	min-width		:20%;
-	/*max-height		:306px;*/
+	max-height		:306px;*/
 	margin			:6% 33.3% 16% 33.3%;
 	padding			:10px 0px;
 	border-radius	:20px;
@@ -220,11 +221,21 @@ main
 {
 	background	:#EEEEEC;
 	width		:92%;
-	height		:500px;			/*:20%;*/
+	/*height	:500px;			:20%;*/
 	display		:inline-block;
 	padding		:4%;
 	float		:left;
 }
+
+
+.aboutTitle
+{
+	width: 100%;
+	/*padding: 1% 0;*/
+	font-size: xx-large;
+	text-align: center;
+}
+
 
 /*.tabAbout section
 {
@@ -260,13 +271,28 @@ main
 	text-align		:center;
 	display			:inline-block;
 	float			:left;
-	margin			:0px 1.66%;
+	margin			:1% 1.66%;
 	border-radius	:20px;
 	text-decoration	:none;
 	text-transform	:none;
 	color			:#692E2A;
 }
 
+.conCard
+{
+	/*background-image:url(img/imgMorronTra.png) center;*/
+	width			:30%;
+	/* height		:330px; */
+	min-height		:160px;
+	text-align		:center;
+	display			:inline-block;
+	float			:left;
+	margin			:1% 1.66%;
+	border-radius	:20px;
+	text-decoration	:none;
+	text-transform	:none;
+	color			:#692E2A;
+}
 .card h1
 {
 	margin-bottom	:50px;
@@ -279,18 +305,11 @@ main
 }
 
 
-
-
-
-
-
-
-
 .tabSweeting
 {
 	background	:#FEC87D;
 	width		:100%;
-	/*height		:1080px;*/
+	/*min-height		:1080px;*/
 	display		:inline-block;
 	/*padding	:4%;*/
 }
@@ -309,12 +328,24 @@ main
 	background-size	: cover;
 }
 
+
+
+.overLinka
+{
+	width	:100%;
+	height	:100%;
+	display	:inline-block;
+}
+
+
 .sweetFlavors
 {
 	width	: 80%;
-	margin	: 6% 0px 15% 0;
+	margin	: 6% 0px 6% 0;
 	padding	: 0% 10%;
 	display	: inline-block;
+	/*min-height: 480px;*/
+
 }
 
 .cardDiv
@@ -461,7 +492,8 @@ main
 {
 	background		:url(img/patSweet.png);
 	background-size	:auto 100%;
-	height			:4.5%;
+	height			:60px;
+	width			:100%;
 	float			:right;
 }
 
@@ -469,7 +501,7 @@ main
 {
 	/*height	:800px;*/
 	width		:80%;
-	padding		:5% 10% 10% 10%;
+	padding		:6% 10% 10% 10%;
 	float		:left;
 	background	:#EEEEEC;
 }
@@ -480,6 +512,7 @@ main
 	padding		:1% 0;
 	font-size	:xx-large;
 	text-align	:center;
+	margin-bottom: 5%;
 }
 
 #recetas h2
@@ -521,17 +554,17 @@ main
 
 .contacto
 {
-	padding: 20px 0px;
-	background	:#C3CCBF;
+	padding		:20px 0px;
+	background	:#EEEEEC;
 	width		:100%;
 	height		:170px;
 	float		:left;
-	margin: 55px 0px;
+	padding		:20px 0px 55px 0px;
 }
 
 .contSect
 {
-	width: 33.33333%;
+	width: 33.3333%;
 	height: 100px;
 	text-align: center;
 	float:left;
@@ -541,13 +574,15 @@ main
 footer
 {
 	background	:#5B3027;
-	width		:100%;
-	height		:20px;
+	width		:80%;
+	display		:inline-block;
 	float		:left;
-	padding		: 50px 0px; 
+	padding		:50px 10%; 
+	color		:#EEEEEC;
+	text-align	:center;
 }
 
-footer a
+/* footer a
 {
 	
 	width:100%;
@@ -555,14 +590,27 @@ footer a
 	color:#EEEEEC;
 	text-align: center;
 	display:;
+} */
+
+.fooContacts
+{
+	width		:80%;
+	display		:inline-block;
+}
+
+.fooContactsCards
+{
+	width		:33.3%;
+	min-height	:300%;
+	display		:inline-block;	
+	float		:left;
 }
 
 .fooText
 {
 	
-	width:100%;
-	margin: 0px 50%px;
-	color:#EEEEEC;
-	text-align: center;
-	display:;
+	width		:100%;
+	margin		:0px 50%px;
+	color		:#EEEEEC;
+
 }
