@@ -1,413 +1,629 @@
-<!DOCTYPE HTML>
-	<html lang="en-US">
+html
+{
+	scroll-behavior: smooth;
+	margin:0;
+	font-family:"Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	color: #692E2A;
+}
 
-<head>
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+.center 
+{margin	:0px 50%;}
+
+.floatLeft
+{float	:left;}
+
+.floatRight 
+{float	:right;}
+
+p
+{
+	margin:0;
+	padding:0;
+}
+
+
+/*.container
+{
+	width: 75%;
+    margin: 0px 25%;
+}
+	maybe?
+*/
+
+
+body
+{
+	width			:100%;
+	margin			:0px;
+	padding			:0px;
+	background		:#EEEEEC;
+	text-decoration	:none;
+	font			:18;
+}
+
+a
+{
+	text-decoration:none;
+	text-transform:none;
+}
+
+header
+{
+/*	position:absolute;
+	margin-bottom: 100px;*/
+	width		:100%;
+	max-height	:200px;
+	display		:inline-block;
+}
+
+Header aside
+{
+	width: 100%;
+}
+
+logoHeader
+{
+	float		:left;
+	background	:#C3CCBF;
+}
+
+
+.navMain
+{
+	width		:100%;
+	float		:right;
+	color		:#665D1E;
+	/*height	:70px;*/
+	background	:#C3CCBF;
+	display		: inline-block;
+}
+
+.socialMediaButtons
+{
+	width				:100%; 
+	position			:absolute;
+	/*background-color	:#C3CCBF;*/
+	height				:20px;
+}
+
+.socialMediaButtons img
+{
+	float			:right;
+	margin			:0px 10px 0px 0px;
+}
+
+.navButtons
+{
+	list-style	:none;
+	margin		:0px auto 0px auto;
+	padding		:0px;
+	width		:80%;
+	font-size	:100%;
+
+}
+
+.navButtons a
+{
+	/*background	: #B0BF1A;*/
+	color			:#665D1E;
+	/*width			:16%;*/
+	padding			:1.5% 4.6%;
+	float			:left;
+	text-decoration	:none;
+	text-align		:center;
+	padding			: 20% auto;
+	transition		:1s;
 	
-	<meta charset ="utf-8"> 
+}
+.navButtons a:hover
+{
+	background		:#665D1E;
+	color			:#ffffff;
+	transition		:1s;
+}
 
-	<title>	Morron Y Punto </title>
+.navSocial
+{
+	padding			:1% 2.5% !important;
+}
 
-	<link	rel="stylesheet" type="text/css" href="main.css"/>
+
+
+main
+{
+	background		:url(img/imgBackground.jpg) no-repeat /*center*/ fixed;
+	background-size	:cover;
+	width			:90%;
+	margin			:2% auto auto auto;
+}
+
+
+
+.tabHome
+{
+	width			:100%;
+	height			:20%;
+	/*padding		:4% 0%;*/
+}
+
+.formQuote
+{
+	background		:rgba(195,204,191,0.75) /*#C3CCBF*/;
+	border-radius	:2px;
+	width			:33.3%;/*
+	min-width		:20%;
+	max-height		:306px;*/
+	margin			:6% 33.3% 16% 33.3%;
+	padding			:10px 0px;
+	border-radius	:20px;
+	display			:inline-block;
+}
+
+.aver
+{ 
+	width		:50%;
+	float		:left;
+}
+
+.formQuote input
+{
+	float			:left;
+	/*width			:38.5%;*/
+	width			:75.5%;
+	border-radius	:10px;
+	border			:none;
+	background		:#FFF;
+	margin			:5px 12.25%;
+	padding			:6px;
+	display			:block;
+}
+
+.formQButtons
+{
+	width			:80.5% !important;
+}
+
+.formQuote h1
+{
+	float			:left;
+	margin			:0;
+	width			:100%;
+	text-align		:center;
+	margin-bottom	:10px;
+	color			:#692E2A;
+}
+
+#borrar
+{
+	background	:#ED2125; 
+	color		:#FFF;
+	transition	: 0.3s;
+}
+
+#borrar:hover
+{
+	color		:#000;
+	background	:#FBD3D3;
+	font-weight	:bolder;
+	transition	: 0.3s;
+}
+
+#enviar
+{
+	background	:#0B5C30; 
+	color		:#FFF;
+	transition	: 0.3s;
+}
+
+#enviar:hover
+{
+	color		:#000;
+	background	:#CEDED6;
+	font-weight	:bolder;
+	transition	: 0.3s;
+}
+
+
+.tabAbout
+{
+	background	:#EEEEEC;
+	width		:92%;
+	/*height	:500px;			:20%;*/
+	display		:inline-block;
+	padding		:4%;
+	float		:left;
+}
+
+
+.aboutTitle
+{
+	width: 100%;
+	/*padding: 1% 0;*/
+	font-size: xx-large;
+	text-align: center;
+}
+
+
+/*.tabAbout section
+{
+	width	:100%;
+	height	:20%;
+	float	:left;
+	display: inline-block;
+}
+
+.tabAboutimg
+
+{
+	width: 30%;
+}
+.tabAbout h1
+{
+	width: 100%;
+	height: 20%;
+}
+
+.tabAbout h2
+{
+	width: 100%;
+	height: 20%;
+}
+*/
+
+.card
+{
+	/*background-image:url(img/imgMorronTra.png) center;*/
+	width			:30%;
+	height			:330px;
+	text-align		:center;
+	display			:inline-block;
+	float			:left;
+	margin			:1% 1.66%;
+	border-radius	:20px;
+	text-decoration	:none;
+	text-transform	:none;
+	color			:#692E2A;
+}
+
+.conCard
+{
+	/*background-image:url(img/imgMorronTra.png) center;*/
+	width			:30%;
+	/* height		:330px; */
+	min-height		:160px;
+	text-align		:center;
+	display			:inline-block;
+	float			:left;
+	margin			:1% 1.66%;
+	border-radius	:20px;
+	text-decoration	:none;
+	text-transform	:none;
+	color			:#692E2A;
+}
+.card h1
+{
+	margin-bottom	:50px;
+}
+
+.tabAboutDescription
+{
+	width		: 70%;
+	margin		: 0px 15%;
+}
+
+
+.tabSweeting
+{
+	background	:#FEC87D;
+	width		:100%;
+	/*min-height		:1080px;*/
+	display		:inline-block;
+	/*padding	:4%;*/
+}
+
+/*.tabSweeting section
+{
+	background	:#FEC87D;
 	
-</head>
+	width:100%;
+}*/
 
-			
-<body>
+.tabSweetingHead
+{
+	background		: url(img/imgSweetingLong.png) no-repeat center;
+	height			: 310px;
+	background-size	: cover;
+}
 
 
-<header>
-		<!--<nav class="socialMediaButtons">
-			<a href="https://www.facebook.com/"><img src="img/logoFB.png" width="20px"></a>
-			<a href="https://www.instagram.com/"><img src="img/logoInstagram.jpg" width="20px" ></a>			
-		</nav>-->
+
+.overLinka
+{
+	width	:100%;
+	height	:100%;
+	display	:inline-block;
+}
+
+
+.sweetFlavors
+{
+	width	: 80%;
+	margin	: 6% 0px 6% 0;
+	padding	: 0% 10%;
+	display	: inline-block;
+	/*min-height: 480px;*/
+
+}
+
+.cardDiv
+{
+	width			: 33%;
+	min-width		:432px;
+	float			: left;
+	margin			: 1% 0.1%;
+}
+.sweetCard
+{
+	width			: 100%;
+	color			:#FFF;
+	display			:inline-block;
+	/*float:left;*/
+	transition		: 1s;
+	float			:left;
+	margin			: 0.5% 1.5%;
+}
+
+.sweetCard h1
+{
+	width		:100%;
+	background	:#FFF1DF;
+	text-align	:center;
+	margin		:0;
+	transition	:1s;
+	color		:#5B3027;
+	float		:left;
+	padding		:15px 0px;
+}
+
+.sweetImg p
+{
+	padding			: 5px 5%;
+	text-align		:justify;
+}
+
+
+.sweetImg
+{
+	background-size	: 100%;
+	/*opacity: 0;*/
+	width			:100%;
+	height			: 0px;
+	/*max-height: 260px;*/
+	/*border:#000 2px solid;*/
+	/*opacity: 0;*/
+	float			: left;
+	transition		: 1s;
+	/*visibility:hidden;*/
+}
+
+.sweetDrop
+{
+	visibility		:hidden;
+	/*display:none;*/
+	opacity			:0;
+	transition		: 1s;
+	text-align		:justify;
+	font-size		:0%;
+}
+
+.sweetCard:hover .sweetImg
+{
+	opacity		: 100;
+	height		: 270px;
+	transition	: 1s;
+}
+
+
+.sweetCard:hover .sweetDrop
+{
+	visibility	:visible;
+	/*display:inline-block;*/
+	text-align	:justify;
+	font-size	:100%;
+	opacity		: 100;
+	transition	: 1s;
+}
+
+.sweetCard:hover h1
+{
+	background	:#5B3027;
+	transition	: 1s;
+	color		:#FFF1DF;
+}
+
+.vanilla
+{
+	background		:url(img/imgVainilla.jpg) no-repeat;
+	background-size	: 100%;
+}
+.bombom
+{
+	background		:url(img/imgBombom.jpg) no-repeat;
+	background-size	: 100%;
+}
+.ciruela
+{
+	background		:url(img/imgCiruelas.jpg) no-repeat;
+	background-size	: 100%;
+}
+.pistachio
+{
+	background		:url(img/imgPistachio.jpg) no-repeat;
+	background-size	: 100%;
+}
+.turron
+{
+	background		:url(img/imgTurron.jpg) no-repeat;
+	background-size	: 100%;
+}
+.coco
+{
+	background		:url(img/imgCoco.jpg) no-repeat;
+	background-size	: 100%;
+}
+
+
+/*.sweetImg img
+{
+	max-width:100%;
+	max-height:100%;
+	object-fit: cover;
+}*/
+
+.sweetFlavorsDes
+{
+	background	:#FFF1DF;
+	color		:#5B3027;
+	width		:100%;
+	height		:35%;
+	float		:left;
+}
+
+.sweetFlavorsDes p
+{
+	padding		: 5px 5%;
+}
+
+
+
+.tabSweetingFoot
+{
+	background		:url(img/patSweet.png);
+	background-size	:auto 100%;
+	height			:60px;
+	width			:100%;
+	float			:right;
+}
+
+#recetas
+{
+	/*height	:800px;*/
+	width		:80%;
+	padding		:6% 10% 10% 10%;
+	float		:left;
+	background	:#EEEEEC;
+}
+
+#recetas h1
+{
+	width		:100%;
+	padding		:1% 0;
+	font-size	:xx-large;
+	text-align	:center;
+	margin-bottom: 5%;
+}
+
+#recetas h2
+{
+	/*font		:x-large bold;*/
+	text-align	:center;
+}
+
+#recetas section
+{
+	width: 100%;
+	display:inline-block;
+}
+
+.recCard
+{
+	margin			:0px 3.53%;;
+	float			:left;	
+}
+
+.circlePic
+{
+	background-size	:cover;
+	border-radius	:100%;
+	width			:360px;
+	height			:360px;
+	transition		:2s;
+}
+
+.circlePic:hover
+{
+	/*background-size	:100%;
+	width				:260px;
+	height				:260px;*/
+	border-radius		:20px;
+	transition			:1s;
+	transform			:scale(1.1);
+}
+
+.contacto
+{
+	padding		:20px 0px;
+	background	:#EEEEEC;
+	width		:100%;
+	height		:170px;
+	float		:left;
+	padding		:20px 0px 55px 0px;
+}
+
+.contSect
+{
+	width: 33.3333%;
+	height: 100px;
+	text-align: center;
+	float:left;
+	display:inline-block;
+}
+
+footer
+{
+	background	:#5B3027;
+	width		:80%;
+	display		:inline-block;
+	float		:left;
+	padding		:25px 10%; 
+	color		:#EEEEEC;
+	text-align	:center;
+}
+
+/* footer a
+{
 	
-	<article class="logoHeader">
-    	<img src="img/morronLogo.png" width="100px" class="center" style="margin:17px 46%;">
-    </article>	
-<nav class="navMain">
-		<ul class="navButtons">
-			<li><a href="#tabAbout">Conocenos</a></li>
-			<li><a href="index">Menu</a></li>
-			<li><a href="#sweety">Sweety Temptation</a></li>
-            <li><a href="#recetas">Recetas Rapidas</a></li>
-			<li><a href="index">Cursos</a></li>
-            <li><a href="index">Contacto</a></li>
-            <li><a href="index" class="navSocial">
-            <img src="img/imgFbTra.png" width="30px">
-            </a></li>
-            <li><a href="index" class="navSocial">
-            <img src="img/imgInsTra.png" width="30px">
-            </a></li>
-		</ul>
-		
+	width:100%;
+	margin: 0px 50%px;
+	color:#EEEEEC;
+	text-align: center;
+	display:;
+} */
 
-</nav>
-</header>
+.fooContacts
+{
+	width		:80%;
+	display		:inline-block;
+}
 
-<!--<header>
-		<nav class="socialMediaButtons">
-			<a href="https://www.facebook.com/"><img src="img/logoFB.png" width="20px"></a>
-			<a href="https://www.instagram.com/"><img src="img/logoInstagram.jpg" width="20px" ></a>			
-		</nav>
+.fooContactsCards
+{
+	width		:33.3%;
+	min-height	:300%;
+	display		:inline-block;	
+	float		:left;
+}
+
+.fooText
+{
 	
-<nav class="navMain">
-<a href="#"><img src="img/morronLogo.png" width="100px" style="float:left;"></a>  
-		<ul class="navButtons">
-        	<li><a href="#tabAbout">Conocenos</a></li>
-			<li><a href="index">Menu</a></li>
-			<li><a href="#sweety">Sweety Temptation</a></li>
-            <li><a href="#recetas">Recetas Rapidas</a></li>
-			<li><a href="index">Cursos</a></li>
-			<li><a href="index">Contacto</a></li>			
-		</ul>
-		
+	width		:100%;
+	margin		:0px 50%px;
+	color		:#EEEEEC;
 
-</nav>
-</header>-->
-
-
-
-
-<main>
-
-	<article class="tabHome">
-
-		<section class="formQuote">
-	<h1>Cotiza con Nosotros</h1>
-        <div class="aver"><!--floatLeft inputs-->
-    <input  type="text" value="Nombre">
-    <input  type="text" value="Apellido">
-    <input  type="text" value="Empresa">
-    <input  type="text" value="Fecha del Evento">
-	<input class="formQButtons"	id="enviar"	type="submit" value="Enviar" >
-        </div> <div class="aver">  <!--floatRight inputs-->    
-    <input  type="text" value="Email">
-    <input  type="text" value="Telefono">
-    <input  type="text" value="Direccion">
-    <input  type="text" value="Comentarios">
-	<input class="formQButtons"	id="borrar"	type="reset" value="Borrar" >
-        </div><!--Buttons (Duh)           
-
--->
-
-		</section>
-
-	</article>
-
-
-	<!--<article id="tabAbout" class="tabAbout"> <!--tab1--
-		<section>
-			
-			<div class="tabAboutimg floatLeft">
-				<img src="img/morron.jpg" width="200px">
-			</div>
-			
-			<div class="tabAboutDescription ">
-				<h1 class="floatLeft" > Quienes Somos </h1>
-				<h2 class="floatLeft" > Somos una empresa de alimentos y bebidas, establecida en el país desde el año 2014. 
-				Dedicada en su mayoría a la elaboración de buffets, picaderas y postres para todo tipo de eventos, así como desayunos, almuerzos y cenas para empresas.
-				También contamos con una rama amplia de servicios como desayunos personalizados, d
-				ecoración de eventos y organización de estas infantiles. 
-				</h2>
-			</div>
-	
-		</section>
-		
-		<section><!--tab2--
-			
-			<div class="tabAboutimg floatRight">
-				<img src="img/ajo.jpg" width="200px">
-			</div>
-			
-			<div class="tabAboutDescription ">
-				<h1 class="floatLeft" > Nuestra Mision </h1>
-				<h2 class="floatLeft" > Ser una empresa rentable que satisfaga las necesidades gastronómicas de nuestros clientes, ofreciendo un servicio
-				de preparación, presentación y gestión de alimentos y bebidas bajo los más estrictos estándares de higiene, calidad y
-				precio justo, con un toque del delicioso morrón. 
-				</h2>
-			</div>
-	
-		</section>
-
-		<section><!--tab3<--
-			
-			<div class="tabAboutimg floatLeft">
-				<img src="img/cebolla.jpg" width="200px">
-			</div>
-			
-			<div class="tabAboutDescription ">
-				<h1 class="floatLeft" > Nuestra Vision </h1>
-				<h2 class="floatLeft" > Ser reconocida como la empresa número uno en la gestión y 
-				aprovisionamiento gastronómico a nivel local y regional, con un servicio indiscutiblemente 
-				profesional y apegado estrictamen.
-				</h2>
-			</div>
-	
-		</section>		
-		
-		
-		
-	</article>-->
-
-<article id="tabAbout" class="tabAbout" > <!--tab1-->
-
-		<a href="#tabAbout" class="overLinka">
-        
-        <p class="aboutTitle"> Quienes Somos? </p>
-        <section class="card" style="background:#CFE8CC;">
-        
-			 <div class="tabAboutDescription" >
-				<h1> Quienes Somos </h1>
-				<h4> Somos una empresa de alimentos y bebidas, establecida en el país desde el año 2014. 
-				Dedicada en su mayoría a la elaboración de buffets, picaderas y postres para todo tipo de eventos, así como desayunos, almuerzos y cenas para empresas.
-				También contamos con una rama amplia de servicios como desayunos personalizados, d
-				ecoración de eventos y organización de estas infantiles. 
-				</h4>
-			</div>
-		</section>
-
-        <section class="card" style="background:#FFFBCC;">
-			<div class="tabAboutDescription ">
-				<h1 > Nuestra Mision </h1>
-				<h4 > Ser una empresa rentable que satisfaga las necesidades gastronómicas de nuestros clientes, ofreciendo un servicio
-				de preparación, presentación y gestión de alimentos y bebidas bajo los más estrictos estándares de higiene, calidad y
-				precio justo, con un toque del delicioso morrón. 
-				</h4>
-			</div>
-		</section>
-  
-        <section class="card" style="background:#FEE4D2; margin-bottom:40px;">		
-			<div class="tabAboutDescription">
-				 <h1 > Nuestra Vision </h1>
-				<h4 > Ser reconocida como la empresa número uno en la gestión y 
-				aprovisionamiento gastronómico a nivel local y regional, con un servicio indiscutiblemente 
-				profesional y apegado estrictamen.
-				</h4>
-			</div>	
-         </section>
-		 
-	
-    	</a>
-		
-		
-		
-	</article>
-
-    
-
-
-
-<!-- <article class="contacto">
-
-	<section class="contSect">
-		<h1>Teléfono</h1>
-		<h2>829-258-9507</h2>
-	</section>
-
-	<section class="contSect">
-		<h1>Email</h1>
-		<h2>morron_y_punto</h2>
-        
-	</section>
-
-	<section class="contSect">
-		<h1>Redes Sociales</h1>
-		<h2>Instagram: morron_y_punto</h2>
-        <h2>Facebook: morrón y punto</h2>
-	</section> -->
-    
-</article>
-
-
-    <article id="sweety" class="tabSweeting">
-     
-
-        	<section class="tabSweetingHead">
-    			<a href="#sweety" class="overLinka">           
-<!--     		<img src="img/imgSweeting.png" width="100%">  -->      
-   				</a>
-   		</section>
-
-    		<section class="sweetFlavors"> 
-            	
-               	<div class="cardDiv">
-                	<section class="sweetCard"> 
-            		<h1> Clasico</h1>
-                    	<div class="sweetDrop">
-                    		<div class="sweetImg vanilla"> 
-                        	<!--<img src="img/imgVainilla.jpg"  width="100%">-->
-<!-- Change it back to IMG instead of Background image-->                         	</div>
-                    			<div class="sweetFlavorsDes">
-                    	
-                       			<p> El clásico sabor de ponche dominicano, con las ricas especias que lo caracterizan, un ligero
-sabor a vainilla y la dulzura en su punto exacto, para brindarnos una experiencia en el paladar que nos transporta a nuestros más preciados recuerdos navideños.	</p>
-                    			</div>
-                   </div>
-                    
-            	</section>
-
-<section class="sweetCard"> 
-            		<h1> Bombom</h1>
-                    	<div class="sweetDrop">
-                    		<div class="sweetImg bombom"> 
-                        	<!--<img src="img/imgVainilla.jpg"  width="100%">-->
-                         	</div>
-                    			<div class="sweetFlavorsDes">
-                    	
-                       			<p> Una rica mezcla de chocolate y cerezas, que junto al ron hacen la combinación perfecta para
-brindar en navidad.	</p>
-                    			</div>
-                   </div>
-                    
-            	</section>
-				</div>
-                
-                <div class="cardDiv">
-                	<section class="sweetCard"> 
-            		<h1> Ciruela</h1>
-                    	<div class="sweetDrop">
-                    		<div class="sweetImg ciruela"> 
-                        	<!--<img src="img/imgVainilla.jpg"  width="100%">-->
-                         	</div>
-                    			<div class="sweetFlavorsDes">
-                    	
-                       			<p> Uno de los frutos secos por excelencia, ahora combinado con la dulzura del ponche y
-potenciado con el rico y adictivo sabor del ron dominicano.	</p>
-                    			</div>
-                   </div>
-                    
-            	</section>
-                
-				<section class="sweetCard"> 
-            		<h1> Pistacho</h1>
-                    	<div class="sweetDrop">
-                    		<div class="sweetImg pistachio"> 
-                        	<!--<img src="img/imgVainilla.jpg"  width="100%">-->
-                         	</div>
-                    			<div class="sweetFlavorsDes">
-                    	
-                       			<p> Para los amantes del pistacho le tenemos el ponche ideal para ustedes, todo el sabor del
-pistacho, en una bebida dulce y sabrosa.	</p>
-                    			</div>
-                   </div>
-                    
-            	</section>
-				</div>
-                
-                <div class="cardDiv">
-					<section class="sweetCard"> 
-            		<h1> Turrón</h1>
-                    	<div class="sweetDrop">
-                    		<div class="sweetImg turron"> 
-                        	<!--<img src="img/imgVainilla.jpg"  width="100%">-->
-                         	</div>
-                    			<div class="sweetFlavorsDes">
-                    	
-                       			<p> Los dos mayores clásicos de la navidad, el ponche y el turrón, combinados en una bebida
-excepcional para complacer los paladares más exigentes. Excelente para brindar con amigos y
-familiares.	</p>
-                    			</div>
-                   </div>
-                    
-            	</section>
-<section class="sweetCard"> 
-            		<h1> Coco</h1>
-                    	<div class="sweetDrop">
-                    		<div class="sweetImg coco"> 
-                        	<!--<img src="img/imgVainilla.jpg"  width="100%">-->
-                         	</div>
-                    			<div class="sweetFlavorsDes">
-                    	
-                       			<p> No hay nada más tropical que el coco y en morrón lo sabemos, por eso te traemos este ponche
-de coco, que te transportara a las navidades en el caribe.	</p>
-                    			</div>
-                   </div>
-                    
-            	</section>
-				</div>
-
-            	</section>
-            
-            
-            </section>
-            
-    
-    	<section class="tabSweetingFoot">
-        	
-        </section>
-
-    </article>
-    
-    
-    <article id="recetas">
-    
-    <a href="#recetas"> <h1> Recetas Rápidas</h1> </a>
-    	<section>
-        	
-            <div class="recCard"> 
-        		<div class="circlePic" style="background-image:url(img/imgRecBerengenas.jpg)">
-                </div>
-            	<h2> Berengenas Parmesanas </h2>             		 			
-             </div>
-                
-            <div class="recCard">
-        		<div class="circlePic"  style="background-image:url(img/imgRecCachapas.jpg)">
-                </div>
-            	<h2> Cachapas </h2>
-            </div>
-            
-            <div class="recCard">
-                <div class="circlePic"  style="background-image:url(img/imgRecCapiccino.jpg)">
-                </div>
-             	<h2> Capuccini</h2>
-            </div>
-            
-		</section>    
-    </article>
-    
-
-	
-</main>	
-
-<footer> 
-
-    
-		<section class="fooContacts">
-			<div class="fooContactsCards">
-				<h1> Teléfono </h1>
-				<h4> 829-258-9507</h4>
-			</div>
-
-			<div class="fooContactsCards">
-				 <h1> Redes Sociales </h1>
-				<h4> <a> Instagram: morron_y_punto </a> </h4>
-   				<h4> <a> Facebook: morrón y punto </a> </h4>
-			</div>			
-			
-			<div class="fooContactsCards">
-				 <h1 >Email</h1>
-				<h4> orronypunto@hotmail.com</h4>
-			</div>
-  
-			</section>
-
-<section class="fooText">
-<a class="fooText"> Todos los derechos de autor reservados © 2019 morronypunto.com. </a>
-</section>
-
-<section class="fooText">
-<a class="fooText"> Copyright © 2019 morronypunto.com. All Rights reserved.  </a>
-</section>
-
-
-<!--
-<img src="img/imgRecBerengenas.jpg">
-<img src="img/imgRecCachapas.jpg">
-<img src="img/imgRecCapiccino.jpg">
--->
-
-</footer>
-
-</body>
-
-</html>
+}
