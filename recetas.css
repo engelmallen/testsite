@@ -1,0 +1,87 @@
+
+
+
+
+main
+{
+	background: none !important;
+	counter-reset: my-sec-counter;
+	/*counter-increment	:counterDeRecetas;*/
+}
+
+.receta
+{
+	width		:100%;
+	display		:inline-block;
+	margin		:0 0 200px 0;
+}
+
+.recImg
+{
+	width				:100%;
+	height				:570px;
+	background-size		:cover;
+}
+
+
+
+.receta h1
+{
+	width		:100%;
+	text-align	:center;
+	font-size	:xxx-large;
+}
+
+.recDescription
+{
+	width		:100%;
+}
+
+.recIngredientes
+{
+	width		:100%;
+	text-align	:center;
+}
+
+
+
+
+.recPreparacion
+{
+	width		:100%;
+}
+
+.recPreparacion ol
+{
+	float			:left;
+	counter-reset	:counterDeRecetas;
+	list-style		:none;
+}
+
+.recPreparacion ol li
+{
+	counter-increment	:counterDeRecetas;
+	padding				:20px 0;
+	border-bottom		:1px solid #e0e0e0;	
+	list-style-position	:inside;
+}
+
+
+.recPreparacion li::before
+{
+  content: "Paso " counter(counterDeRecetas) ": ";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
