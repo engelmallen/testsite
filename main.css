@@ -353,6 +353,7 @@ main
 	background		: url(img/imgSweetingLong.png) no-repeat center;
 	height			: 310px;
 	background-size	: cover;
+	margin-top: -12px;
 }
 
 
